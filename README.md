@@ -20,12 +20,12 @@ Spring and Hibernate based E-commence web application that allows customers to s
 
 ### Architecture
 
-<img src="images/01.png" width="50%" height="50%">
+<img src="img/01.png" width="50%" height="50%">
 
 
 ### SpringMVC
 
-<img src="images/03.png" width="50%" height="50%">
+<img src="img/03.png" width="50%" height="50%">
 
 DispatcherServlet(前端控制器)
 
@@ -48,7 +48,7 @@ HandlerMapping(映射处理器): Map a request to a handler that helps the Dispa
 
 ### Spring Security
 
-<img src="images/04.png" width="50%" height="50%">
+<img src="img/04.png" width="50%" height="50%">
 
 
 
@@ -100,12 +100,12 @@ The microservice architectural style is an approach to developing a single appli
 
 How client interact with it: API Gateway(Spring cloud Gateway)
 
-<img src="images/05.png" width="50%" height="50%">
+<img src="img/05.png" width="50%" height="50%">
 
 Service discovery: Zookeeper, Spring Cloud eureka
 
-<img src="images/06.png" width="50%" height="50%">
+<img src="img/06.png" width="50%" height="50%">
 
 Communication in microservices: Synchronous: RESTful, RPC(Dubbo)
 
-<img src="images/07.png" width="50%" height="50%">
+<img src="img/07.png" width="50%" height="50%">
