@@ -68,7 +68,7 @@ The process of deciding whether a current logged user is allowed to perform an a
 Hibernate is an object-relational mapping tool for the Java programming language which implements the Java Persistence API. 
 Hibernate's primary feature is mapping from Java classes to database tables, and mapping from Java data types to SQL data types. Hibernate provides data manipulation facilities.
 
-- Associations in Hibernate:
+**Associations in Hibernate**
 
 `@ManyToOne` is the most common association, having a direct equivalent in the relational database (e.g. foreign key), and so it establishes a relationship between a child entity and a parent. 
 
@@ -78,7 +78,7 @@ The `@ManyToMany` association requires a link table that joins two entities.
 
 `@OneToOne` is identical to the @ManyToOne association, as the client-side controls the relationship based on the foreign key column.
 
-- Important interfaces of Hibernate framework
+**Important interfaces of Hibernate framework**
 
 `SessionFactory`: SessionFactory is an immutable thread-safe cache of compiled mappings for a single database. We initialize the sessionFactory once and then reuse it. SessionFactory instance is used to get the Session objects for database operations.
 
@@ -86,7 +86,7 @@ The `@ManyToMany` association requires a link table that joins two entities.
 
 `Transaction`: Transaction is an object used by the application to specify atomic units of work.
 
-<img src="images/02.png" width="50%" height="50%">
+<img src="img/02.png" width="50%" height="50%">
 
 ### Microservice
 
