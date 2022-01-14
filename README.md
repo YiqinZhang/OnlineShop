@@ -18,12 +18,12 @@ Spring and Hibernate based E-commence web application that allows customers to s
   
 
 
-### Architecture
+## Architecture
 
 <img src="img/01.png" width="50%" height="50%">
 
 
-### SpringMVC
+## SpringMVC
 
 <img src="img/03.png" width="50%" height="50%">
 
@@ -46,7 +46,7 @@ HandlerMapping(映射处理器): Map a request to a handler that helps the Dispa
 4.前端控制器再次收回控制权, 将响应返回给用户.
 
 
-### Spring Security
+## Spring Security
 
 <img src="img/04.png" width="50%" height="50%">
 
@@ -63,7 +63,7 @@ The process of checking credentials and making sure the current logged user is w
 The process of deciding whether a current logged user is allowed to perform an action within your application.
 
 
-### Hibernate
+## Hibernate
 
 Hibernate is an object-relational mapping tool for the Java programming language which implements the Java Persistence API. 
 Hibernate's primary feature is mapping from Java classes to database tables, and mapping from Java data types to SQL data types. Hibernate provides data manipulation facilities.
